@@ -5,7 +5,8 @@
 
 ###### Heading
 
--------------- | ---------------
+First Header | Second Header
+------------ | -------------
 \# | H1 (biggest)
 \####### | H6 (smallest)
 
