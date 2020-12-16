@@ -5,8 +5,8 @@
 
 ###### Heading
 
-\#              H1
-\#######        H6
+\#\              H1
+\#######\        H6
 
 
 CheatSheet - Setup Github on Visual Studio Code
