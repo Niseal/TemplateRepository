@@ -3,9 +3,9 @@
 
 #### Cheat Sheet in Short:
 
-###### Heading
+##### Heading
 
-First Header | Second Header
+Markdown Code| Displays             
 ------------ | -------------
 \# | H1 (biggest)
 \####### | H6 (smallest)
