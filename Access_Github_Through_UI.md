@@ -4,6 +4,7 @@
 1. Create new repository in GitHub
 
 2. Clone Github repository in VS Code
+
 IF Source Control is empty:
    Source Control -> Clone Repository -> Clone from GitHub -> … -> Search / Select Repository -> Specify destination -> Login -> Open -> **DONE** 
 
@@ -47,15 +48,15 @@ After completing the login, VS Code will proceed to clone the remote repository 
 
 Files can be added and edited from the **explorer** view. To add a new file to the workspace, press CTRL\+N or go to File —> New File. New files are marked with a **U**, meaning they are **untracked**. Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area. An edited file will be marked by an **M**, which stands for **modified**. **Dont forget to save your files with CTRL\+S**
 
-## Reviewing and Staging Changes
+### Reviewing and Staging Changes
 
 To look at and review the changes, go to the **Source Control** view. After reviewing, you are expected to either discard or stage the changes to the files, by clicking on the **discard \(↶\)** or the **stage \(\+\)** sign next to the filename. You can also stage or discard all changes at once by clicking on the **More actions \(…\)** button and selecting either the **Stage All Changes** or **Discard All Changes** menu items. 
 
-## Committing Changes
+### Committing Changes
 
 Now that the changes have been staged, the next action is to **commit** the changes **to the local repository**. This step comes before pushing the changes to the remote GitHub repository. To commit the changes, you must include a meaningful message in the **message bar**. Once you’re satisfied with your message, press CTRL\+ENTER or click the commit (✓) button to finish saving the changes to the local repository. 
 
-## Pushing Changes to GitHub
+### Pushing Changes to GitHub
 
 After the changes are saved to the local repository, the **Source Control** view should reflect that the number of changes has reset to zero (0). To finally **push** the changes in the local repository **to remote repository** in GitHub, click on the **More actions \(…\)** button and then click on **Push**.
 
