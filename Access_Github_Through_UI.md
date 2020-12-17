@@ -5,13 +5,13 @@
 
 2. Clone Github repository in VS Code
 
-      IF Source Control is empty:
+     IF Source Control is empty:
       
-            Source Control -> Clone Repository -> Clone from GitHub -> … -> Search / Select Repository -> Specify destination -> Login -> Open
+      Source Control -> Clone Repository -> Clone from GitHub -> … -> Search / Select Repository -> Specify destination -> Login -> Open
 
-      IF Source Control isn't empty:
+     IF Source Control isn't empty:
       
-            Source Control -> More Actions \(…\) -> Clone -> Search / Select Repository -> Specify destination -> Login -> Open
+      Source Control -> More Actions \(…\) -> Clone -> Search / Select Repository -> Specify destination -> Login -> Open
 
 3. Create / Edit files in Explorer view, **Save files with CTRL\+S**
 
