@@ -1,4 +1,5 @@
 [Source with Images](https://adamtheautomator.com/visual-studio-code-github/)
+[Video on Basics](https://www.youtube.com/watch?v=F2DBSH2VoHQ)
 
 ## In Short:
 1. Create new repository in GitHub
@@ -13,13 +14,15 @@
       
       Source Control -> More Actions \(…\) -> Clone -> Search / Select Repository -> Specify destination -> Login -> Open
 
-3. Create / Edit files in Explorer view, **Save files with CTRL\+S**
+3. Create local branch / Navigate branches in status bar (branch logo)
 
-4. Review changes in Source Control view, then either Discard ↶ or \+ Save changes
+4. Create / Edit files in Explorer view, **Save files with CTRL\+S**
 
-5. Commit changes to local repository in Source Control view, by writing a message and clicking the commit button ✓ 
+5. Review changes in Source Control view, then either Discard ↶ or \+ Save changes
 
-6. Push changes to remote repository in Source Control view, by through More Actions … -> Push
+6. Commit changes to local repository in Source Control view, by writing a message and clicking the commit button ✓ 
+
+7. Push changes to remote repository in Source Control view, by through More Actions … -> Push
 
 
 
@@ -44,6 +47,7 @@ The **GitHub Login** window will pop up, and you need to enter your GitHub crede
 After completing the login, VS Code will proceed to clone the remote repository to your computer. Once the cloning is done, you would get a notification at the bottom right of the VS Code window. Now, you can click either **Open** or **Open in New Window** depending on your preference.
 
 
+
 ## Staging, Committing and Pushing Changes to GitHub
 
 ### Adding and Modifying Files
@@ -52,7 +56,7 @@ Files can be added and edited from the **explorer** view. To add a new file to t
 
 ### Reviewing and Staging Changes
 
-To look at and review the changes, go to the **Source Control** view. After reviewing, you are expected to either discard or stage the changes to the files, by clicking on the **discard \(↶\)** or the **stage \(\+\)** sign next to the filename. You can also stage or discard all changes at once by clicking on the **More actions \(…\)** button and selecting either the **Stage All Changes** or **Discard All Changes** menu items. 
+To look at and review the changes, go to the **Source Control** view. After reviewing, you are expected to either discard or stage the changes to the files, by clicking on the **discard \(↶\)** or the **stage \(\+\)** sign next to the filename. When changes are staged, the \+ icon becomes a \- icon, which can be used to **unstage** changes. You can also stage or discard all changes at once by clicking on the **More actions \(…\)** button and selecting either the **Stage All Changes** or **Discard All Changes** menu items. 
 
 ### Committing Changes
 
@@ -61,5 +65,14 @@ Now that the changes have been staged, the next action is to **commit** the chan
 ### Pushing Changes to GitHub
 
 After the changes are saved to the local repository, the **Source Control** view should reflect that the number of changes has reset to zero (0). To finally **push** the changes in the local repository **to remote repository** in GitHub, click on the **More actions \(…\)** button and then click on **Push**.
+
+
+
+## Navigating, Creating and Merging Branches
+
+### Navigating and Creating Branches
+
+By default, you start in the main \(or: master\) branch in your local repository. This is shown on the left side of the **status bar**, next to the **branch icon**. To **create** a new local branch or **navigate** existing branches, click on the branch icon and navigate through the command palette options. The **cloud icon** right next to the branch icon is used to **publish changes**. This is necessary when a (newly created) local branch has no equivalent in the Github repository (upstream branch). Publishing changes creates the local branch in the remote repository, and pushes its content.
+
 
 
