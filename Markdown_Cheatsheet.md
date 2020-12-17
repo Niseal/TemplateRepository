@@ -55,7 +55,7 @@ These are the elements outlined in John Gruber’s original design document. All
 ![alt text](image.jpg)
 
 ### Backslash escapes
-Markdown provides backslash escapes for the following characters: \\  \'  \*  \_  \{\}  \[\]  \(\)  \#  \+  \-  \.  \!
+Markdown provides backslash escapes for the following characters: \\  \'  \*  \_  \{  \}  \[  \]  \(  \)  \#  \+  \-  \.  \!
 
 
 
