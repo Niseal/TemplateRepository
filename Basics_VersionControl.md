@@ -62,7 +62,6 @@ Open Folder in VS Code Source Control tab
 7. Push changes to remote repository in Source Control view, by through More Actions … -> Push
 
 
-
 ## High\-Level Introduction
 
 
