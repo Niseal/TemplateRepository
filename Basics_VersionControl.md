@@ -94,11 +94,11 @@ In Visual Studio Code, Github can be accessed through the "Github" View button.
 
 ### Navigating and Creating Branches
 
-By default, you start in the main \(or: master\) branch in your local repository. This is shown on the left side of the **status bar**, next to the **branch icon**. To **create** a new local branch or **navigate** existing branches, click on the branch icon and navigate through the command palette options.
+By default, you start in the main \(or: master\) branch in your local repository. This is shown on the left side of the **status bar**, next to the branch icon. To **create** a new local branch or **navigate** existing branches, click on the **branch icon** and navigate through the command palette options.
 
 ### Adding and Modifying Files
 
-Files can be added and edited from the **explorer** view. To add a new file to the workspace, press CTRL\+N or go to File —> New File. New files are marked with a **U**, meaning they are **untracked**. Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area. An edited file will be marked by an **M**, which stands for **modified**. **Dont forget to save your files with CTRL\+S**
+Files can be added and edited from the **explorer** view. To add a new file to the workspace, press CTRL\+N or go to File —> New File. New files are marked with a **U**, meaning they are **untracked**. Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area. An edited file will be marked by an **M**, which stands for **modified**. Other markings are **D** for **deleted** and ...? **Dont forget to save your files with CTRL\+S**
 
 ### Reviewing and Staging Changes
 
@@ -106,7 +106,7 @@ To look at and review the changes, go to the **Source Control** view. After revi
 
 ### Committing Changes
 
-Now that the changes have been staged, the next action is to **commit** the changes **to the local repository**. This step comes before pushing the changes to the remote GitHub repository. To commit the changes, you must include a meaningful message in the **message bar**. Once you’re satisfied with your message, press CTRL\+ENTER or click the commit (✓) button to finish saving the changes to the local repository. 
+Now that the changes have been staged, the next action is to **commit** the changes **to the local repository**. To commit the changes, you must include a meaningful message in the **message bar**. Once you’re satisfied with your message, press CTRL\+ENTER or click the commit \(✓\) button to finish saving the changes to the local repository. 
 
 
 
